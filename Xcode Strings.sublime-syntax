@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+file_extensions:
+  - strings
+scope: source.strings
+contexts:
+  main:
+    - match: '"'
+      scope: string
+      push: string
+    - match: =
+      scope: keyword.operator.assignment.strings
+    - match: ;
+      scope: punctuation.terminator.statement.strings
+
+  string:
+    - meta_scope: string.quoted.double.strings
+    - match: '"'
+      pop: true
