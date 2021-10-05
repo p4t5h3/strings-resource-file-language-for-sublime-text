@@ -1,6 +1,6 @@
-# Xcode strings syntax definition for Sublime Text 3
+# Xcode strings syntax definition for Sublime Text
 
-Syntax highlighting support of Xcode string files for Sublime Text 3. Created out of a personal need and to refresh my experience in creating Sublime Text Packages.
+Syntax highlighting support of Xcode string files for Sublime Text. Created out of a personal need and to refresh my experience in creating Sublime Text Packages.
 
 ## Package Control
 
