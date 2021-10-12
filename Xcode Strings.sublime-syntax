@@ -5,11 +5,19 @@ file_extensions:
 scope: source.strings
 contexts:
   main:
+    - match: /\*
+      push:
+        - meta_scope: comment.block.strings
+        - match: \*/
+          pop: true
+
     - match: '"'
       scope: string
       push: string
+
     - match: =
       scope: keyword.operator.assignment.strings
+
     - match: ;
       scope: punctuation.terminator.statement.strings
 
