@@ -1,0 +1,20 @@
+/* SYNTAX TEST "Packages/User/strings-resource-file-language-for-sublime-text/Strings Resource File.sublime-syntax" */
+
+/* This is a comment */
+/* <- punctuation.definition.comment.strings */
+ /* <- punctuation.definition.comment.strings */
+/*<- comment.block.strings */
+ /*<- comment.block.strings */
+/*^^^^^^^^^^^^^^^^^^^^^ comment.block.strings */
+
+"Example" = "Beispiel";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^^^^ string.quoted.double.strings */
+/*      ^ punctuation.definition.string.begin.strings */
+/*        ^ keyword.operator.assignment.strings */
+/*          ^ punctuation.definition.string.begin.strings */
+/*          ^^^^^^^^^^ string.quoted.double.strings */
+/*                   ^ punctuation.definition.string.begin.strings */
+/*                    ^ punctuation.terminator.statement.strings */
