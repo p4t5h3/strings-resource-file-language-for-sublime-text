@@ -24,6 +24,8 @@ contexts:
 
   string:
     - meta_scope: string.quoted.double.strings
+    - match: '%(\d+\$)?(ld|lx|lu|zx|@|%|d|D|u|U|x|X|o|O|f|e|E|g|G|c|C|s|S|p|a|A|F)'
+      scope: constant.other.placeholder.strings
     - match: '"'
       scope: punctuation.definition.string.begin.strings
       pop: true

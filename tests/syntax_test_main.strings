@@ -18,3 +18,367 @@
 /*          ^^^^^^^^^^ string.quoted.double.strings */
 /*                   ^ punctuation.definition.string.begin.strings */
 /*                    ^ punctuation.terminator.statement.strings */
+
+"Example containing a %@ as a placeholder" = "Beispiel welches ein %@ als Platzhalter enthält";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ string.quoted.double.strings */
+/*                    ^^ constant.other.placeholder.strings */
+/*                                       ^ punctuation.definition.string.begin.strings */
+/*                                         ^ keyword.operator.assignment.strings */
+/*                                           ^ punctuation.definition.string.begin.strings */
+/*                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ string.quoted.double.strings */
+/*                                                                 ^^ constant.other.placeholder */
+/*                                                                                           ^ punctuation.definition.string.begin.strings */
+/*                                                                                            ^ punctuation.terminator.statement.strings */
+
+"a %d" = "a %d";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %D" = "a %D";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %u" = "a %u";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %U" = "a %U";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %x" = "a %x";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %X" = "a %X";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %o" = "a %O";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %f" = "a %f";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %e" = "a %e";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %E" = "a %E";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %g" = "a %g";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %G" = "a %G";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %c" = "a %c";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %C" = "a %C";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %s" = "a %s";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %S" = "a %S";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %p" = "a %p";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %a" = "a %a";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %A" = "a %A";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %F" = "a %F";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^ string.quoted.double.strings */
+/* ^^ constant.other.placeholder.strings */
+/*   ^ punctuation.definition.string.begin.strings */
+/*     ^ keyword.operator.assignment.strings */
+/*       ^ punctuation.definition.string.begin.strings */
+/*       ^^^^^^ string.quoted.double.strings */
+/*          ^^ constant.other.placeholder */
+/*            ^ punctuation.definition.string.begin.strings */
+/*             ^ punctuation.terminator.statement.strings */
+
+"a %1$s" = "a %1$s";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^^ string.quoted.double.strings */
+/* ^^^^ constant.other.placeholder.strings */
+/*     ^ punctuation.definition.string.begin.strings */
+/*       ^ keyword.operator.assignment.strings */
+/*         ^ punctuation.definition.string.begin.strings */
+/*         ^^^^^^^^ string.quoted.double.strings */
+/*            ^^^^ constant.other.placeholder */
+/*                ^ punctuation.definition.string.begin.strings */
+/*                 ^ punctuation.terminator.statement.strings */
+
+"a %ld" = "a %ld";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^^ string.quoted.double.strings */
+/* ^^^ constant.other.placeholder.strings */
+/*    ^ punctuation.definition.string.begin.strings */
+/*      ^ keyword.operator.assignment.strings */
+/*        ^ punctuation.definition.string.begin.strings */
+/*        ^^^^^^^ string.quoted.double.strings */
+/*           ^^^ constant.other.placeholder */
+/*              ^ punctuation.definition.string.begin.strings */
+/*               ^ punctuation.terminator.statement.strings */
+
+"a %lx" = "a %lx";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^^ string.quoted.double.strings */
+/* ^^^ constant.other.placeholder.strings */
+/*    ^ punctuation.definition.string.begin.strings */
+/*      ^ keyword.operator.assignment.strings */
+/*        ^ punctuation.definition.string.begin.strings */
+/*        ^^^^^^^ string.quoted.double.strings */
+/*           ^^^ constant.other.placeholder */
+/*              ^ punctuation.definition.string.begin.strings */
+/*               ^ punctuation.terminator.statement.strings */
+
+"a %lu" = "a %lu";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^^ string.quoted.double.strings */
+/* ^^^ constant.other.placeholder.strings */
+/*    ^ punctuation.definition.string.begin.strings */
+/*      ^ keyword.operator.assignment.strings */
+/*        ^ punctuation.definition.string.begin.strings */
+/*        ^^^^^^^ string.quoted.double.strings */
+/*           ^^^ constant.other.placeholder */
+/*              ^ punctuation.definition.string.begin.strings */
+/*               ^ punctuation.terminator.statement.strings */
+
+"a %zx" = "a %zx";
+/*<- punctuation.definition.string.begin.strings */
+/*<- string.quoted.double.strings */
+ /*<- string.quoted.double.strings */
+/*^^^^^ string.quoted.double.strings */
+/* ^^^ constant.other.placeholder.strings */
+/*    ^ punctuation.definition.string.begin.strings */
+/*      ^ keyword.operator.assignment.strings */
+/*        ^ punctuation.definition.string.begin.strings */
+/*        ^^^^^^^ string.quoted.double.strings */
+/*           ^^^ constant.other.placeholder */
+/*              ^ punctuation.definition.string.begin.strings */
+/*               ^ punctuation.terminator.statement.strings */
