@@ -1,0 +1,30 @@
+name: Syntax Tests
+
+on:
+  push:
+    paths:
+      - '**.sublime-syntax'
+      - '**/syntax_test*'
+  pull_request:
+    paths:
+      - '**.sublime-syntax'
+      - '**/syntax_test*'
+  workflow_dispatch:
+
+jobs:
+  syntax_tests:
+    name: Syntax Tests (${{ matrix.build }})
+    strategy:
+      matrix:
+        include:
+          - build: latest  # This is the default
+            packages: false
+          - build: 3210  # Latest known ST3 build with a test binary
+            packages: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: SublimeText/syntax-test-action@v2
+        with:
+          build: ${{ matrix.build }}
+          default_packages: ${{ matrix.packages }}
